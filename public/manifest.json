@@ -4,8 +4,8 @@
   "short_name": "CS",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FFFFFF",
-  "theme_color": "#FFFFFF",
+  "background_color": "#db0b5f",
+  "theme_color": "#db0b5f",
   "orientation": "portrait",
   "icons": [
     {
