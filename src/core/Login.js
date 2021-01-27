@@ -79,7 +79,7 @@ const Login = () => {
       .then((dt) => {
         // console.log(dt);
         if (dt.status === "ok") {
-          Cookies.set("userEmail", dt.email);
+          Cookies.set("userEmail", dt.email, { expires: 365 });
           toast("Login success", { type: "success" });
           setRedirect(true);
         } else {

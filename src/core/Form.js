@@ -69,7 +69,7 @@ const Form = ({ userEmail }) => {
         <div className="row">
           <div className="col-md-3 col-sm-0"></div>
           <div className="col-md-6 col-sm-12">
-            <div className="card" style={{ width: "100%" }}>
+            <div className="card" style={{ width: "100%", padding: "20px" }}>
               <div className="card-body">
                 <h5 className="card-title text-center">Upload File</h5>
                 <br />
