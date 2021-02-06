@@ -59,6 +59,9 @@ const Navbar = ({ userEmail = "" }) => {
                 <Link className="nav-link text-white" to="/form">
                   Share File
                 </Link>
+                <Link className="nav-link text-white" to="/live">
+                  Live Code
+                </Link>
                 <Link
                   className="nav-link text-white"
                   to=""

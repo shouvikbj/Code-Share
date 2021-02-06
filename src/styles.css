@@ -55,3 +55,16 @@ nav {
 #content::-webkit-scrollbar {
   display: none;
 }
+
+#liveData {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  width: 100vw;
+  height: 80vh;
+  padding: 15px;
+}
+
+#liveData:focus {
+  outline: none;
+}
